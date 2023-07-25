@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    width: 100%;
+    height: 3em;
+    background-color: black;
+    position:fixed;
+    z-index: 999;
+}
+ .parallax{
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+#text{
+    position: absolute;
+    font-size: 5rem;
+    color: #003329;
+    font-weight: bold;
+} 
+.parallax img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+#sec{
+    position: relative;
+    background-color: #ffffff;
+    color: #003329;
+}
+
+#content{
+    background-color: #003329;
+    color: #ffffff;
+    padding: 3em;
+    position: relative;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #fff; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #003329; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: black; 
+  }
+  @media only screen and (max-width: 961px) {
+        
+    #plant ,#hill1,#hill2, #hill3 ,#hill6 , #hill5 ,#hill4 , #tree {
+          
+        display: none;
+    }
+    
+
+  }
